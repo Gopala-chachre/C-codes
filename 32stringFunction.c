@@ -7,7 +7,7 @@ int main() {
     int length = strlen(str1);
     printf("Length of the string: %d\n", length);
 
-    char str2;
+    char str2[25];
     strcpy(str2, str1);
     printf("Copied string: %s\n", str2);
 
